@@ -9,5 +9,5 @@ urlpatterns = [
     #get/hello/
     path("", views.index, name="index"),
     #get/hello/author
-    path("Author/", views.author, name="author"),
+    path("author/", views.author, name="author"),
     ] 
